@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$numeros = [11, 3, 42, 8, 27, 5];
+$maior = max($numeros);
+$menor = min($numeros);
+
+// O erro estava aqui: faltava o ";" no final desta linha
+$dif = $maior - $menor; 
+
+echo 'Maior Valor: ', $maior, '<br>';
+echo 'Menor Valor: ', $menor, '<br>'; // Corrigido de "Maior" para "Menor"
+echo 'Diferença: ', $dif;
+?> 
+
+</body>
+</html>
